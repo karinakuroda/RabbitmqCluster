@@ -1,0 +1,8 @@
+C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQNewTask\bin\Debug\RabbitMQNewTask.exe.config
+C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQNewTask\bin\Debug\RabbitMQNewTask.exe
+C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQNewTask\bin\Debug\RabbitMQNewTask.pdb
+C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQNewTask\bin\Debug\RabbitMQ.Client.dll
+C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQNewTask\bin\Debug\RabbitMQ.Client.xml
+C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQNewTask\obj\Debug\RabbitMQNewTask.csprojResolveAssemblyReference.cache
+C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQNewTask\obj\Debug\RabbitMQNewTask.exe
+C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQNewTask\obj\Debug\RabbitMQNewTask.pdb
