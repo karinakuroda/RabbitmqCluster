@@ -12,7 +12,7 @@ namespace RabbitMQSample
     {
         public static void Main(string[] args)
         {
-            var factory = new ConnectionFactory() { HostName = "localhost", Port = 5682 };
+            var factory = new ConnectionFactory() { HostName = "localhost", Port = 5673 };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {

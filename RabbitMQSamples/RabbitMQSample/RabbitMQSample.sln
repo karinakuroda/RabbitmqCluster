@@ -19,10 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.RabbitMQRouting", "7.Rabb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.RabbitMQRoutingReceive", "8.RabbitMQRoutingReceive\8.RabbitMQRoutingReceive.csproj", "{F88F3101-B4D1-48E7-BFA0-90FF06D862F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.RabbitMQTopic", "RabbitMQTopic\9.RabbitMQTopic.csproj", "{FA1586B2-4B6B-41B2-BBB8-5165539D9503}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQTopicReceive", "RabbitMQTopicReceive\RabbitMQTopicReceive.csproj", "{E879808E-139F-4F43-AD09-377D7CCFA4E7}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,14 +57,6 @@ Global
 		{F88F3101-B4D1-48E7-BFA0-90FF06D862F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F88F3101-B4D1-48E7-BFA0-90FF06D862F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F88F3101-B4D1-48E7-BFA0-90FF06D862F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA1586B2-4B6B-41B2-BBB8-5165539D9503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA1586B2-4B6B-41B2-BBB8-5165539D9503}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA1586B2-4B6B-41B2-BBB8-5165539D9503}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA1586B2-4B6B-41B2-BBB8-5165539D9503}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E879808E-139F-4F43-AD09-377D7CCFA4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E879808E-139F-4F43-AD09-377D7CCFA4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E879808E-139F-4F43-AD09-377D7CCFA4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E879808E-139F-4F43-AD09-377D7CCFA4E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

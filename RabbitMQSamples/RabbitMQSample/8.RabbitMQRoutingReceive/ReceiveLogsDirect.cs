@@ -17,7 +17,7 @@ namespace _8.RabbitMQRoutingReceive
             args[1] = "info";
             args[2] = "warning";
 
-            var factory = new ConnectionFactory() { HostName = "localhost", Port = 5682 };
+            var factory = new ConnectionFactory() { HostName = "localhost", Port = 5673 };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
@@ -25,21 +25,40 @@ namespace _8.RabbitMQRoutingReceive
                                         type: "direct");
                 var queueName = channel.QueueDeclare().QueueName;
 
-                if (args.Length < 1)
-                {
-                    Console.Error.WriteLine("Usage: {0} [info] [warning] [error]",
-                                            Environment.GetCommandLineArgs()[0]);
-                    Console.WriteLine(" Press [enter] to exit.");
-                    Console.ReadLine();
-                    Environment.ExitCode = 1;
-                    return;
-                }
+                //if (args.Length < 1)
+                //{
+                //    Console.Error.WriteLine("Usage: {0} [info] [warning] [error]",
+                //                            Environment.GetCommandLineArgs()[0]);
+                //    Console.WriteLine(" Press [enter] to exit.");
+                //    Console.ReadLine();
+                //    Environment.ExitCode = 1;
+                //    return;
+                //}
 
                 foreach (var severity in args)
                 {
                     channel.QueueBind(queue: queueName,
                                       exchange: "direct_logs",
                                       routingKey: severity);
+
+
+
+                    channel.QueueDeclare(queue: severity,
+                                      durable: true,
+                                      exclusive: false,
+                                      autoDelete: false,
+                                      arguments: null);
+                    var consumer2 = new EventingBasicConsumer(channel);
+                    consumer2.Received += (model, ea) =>
+                    {
+                        var body = ea.Body;
+                        var message = Encoding.UTF8.GetString(body);
+                        var routingKey = ea.RoutingKey;
+                        Console.WriteLine(" [x] Received {0} {1}", message, routingKey);
+                    };
+                    channel.BasicConsume(queue: severity,
+                                         noAck: true,
+                                         consumer: consumer2);
                 }
 
                 Console.WriteLine(" [*] Waiting for messages.");
@@ -56,6 +75,17 @@ namespace _8.RabbitMQRoutingReceive
                 channel.BasicConsume(queue: queueName,
                                      noAck: true,
                                      consumer: consumer);
+
+
+
+
+
+
+              
+
+
+
+
 
                 Console.WriteLine(" Press [enter] to exit.");
                 Console.ReadLine();

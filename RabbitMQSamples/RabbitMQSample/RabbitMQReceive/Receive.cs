@@ -13,7 +13,7 @@ namespace RabbitMQReceive
     {
         public static void Main()
         {
-            var factory = new ConnectionFactory() { HostName = "localhost", Port = 5682 };
+            var factory = new ConnectionFactory() { HostName = "localhost", Port = 32782 };
             using (var connection = factory.CreateConnection())
             {
                 using (var channel = connection.CreateModel())

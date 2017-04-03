@@ -14,7 +14,7 @@ namespace _7.RabbitMQRouting
             args = new string[2];
             args[0] = "error";
             args[1] = "info";
-            var factory = new ConnectionFactory() { HostName = "localhost", Port = 5682 };
+            var factory = new ConnectionFactory() { HostName = "localhost", Port = 5673 };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
@@ -26,12 +26,23 @@ namespace _7.RabbitMQRouting
                
                 foreach (var severity in args)
                 {
-                    var properties = channel.CreateBasicProperties();
-                    properties.Persistent = true;
                     channel.BasicPublish(exchange: "direct_logs",
                                        routingKey: severity,
-                                       basicProperties: properties,
+                                       basicProperties: null,
                                        body: body);
+
+
+                    channel.QueueDeclare(queue: severity,
+                            durable: true,
+                            exclusive: false,
+                            autoDelete: false,
+                            arguments: null);
+                    var properties = channel.CreateBasicProperties();
+                    properties.Persistent = true;
+                    channel.BasicPublish(exchange: "",
+                               routingKey: severity,
+                               basicProperties: properties,
+                               body: body);
                 }
 
 
