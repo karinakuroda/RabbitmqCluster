@@ -1,8 +1,0 @@
-C:\GitHub\RabbitMQClusterDockerSample\RabbitMQSamples\RabbitMQSample\RabbitMQSample\bin\Debug\RabbitMQSample.exe.config
-C:\GitHub\RabbitMQClusterDockerSample\RabbitMQSamples\RabbitMQSample\RabbitMQSample\bin\Debug\RabbitMQSample.exe
-C:\GitHub\RabbitMQClusterDockerSample\RabbitMQSamples\RabbitMQSample\RabbitMQSample\bin\Debug\RabbitMQSample.pdb
-C:\GitHub\RabbitMQClusterDockerSample\RabbitMQSamples\RabbitMQSample\RabbitMQSample\bin\Debug\RabbitMQ.Client.dll
-C:\GitHub\RabbitMQClusterDockerSample\RabbitMQSamples\RabbitMQSample\RabbitMQSample\bin\Debug\RabbitMQ.Client.xml
-C:\GitHub\RabbitMQClusterDockerSample\RabbitMQSamples\RabbitMQSample\RabbitMQSample\obj\Debug\1.RabbitMQSample.csprojResolveAssemblyReference.cache
-C:\GitHub\RabbitMQClusterDockerSample\RabbitMQSamples\RabbitMQSample\RabbitMQSample\obj\Debug\RabbitMQSample.exe
-C:\GitHub\RabbitMQClusterDockerSample\RabbitMQSamples\RabbitMQSample\RabbitMQSample\obj\Debug\RabbitMQSample.pdb

@@ -1,8 +1,0 @@
-C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQWorker\bin\Debug\RabbitMQWorker.exe.config
-C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQWorker\bin\Debug\RabbitMQWorker.exe
-C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQWorker\bin\Debug\RabbitMQWorker.pdb
-C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQWorker\bin\Debug\RabbitMQ.Client.dll
-C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQWorker\bin\Debug\RabbitMQ.Client.xml
-C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQWorker\obj\Debug\RabbitMQWorker.csprojResolveAssemblyReference.cache
-C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQWorker\obj\Debug\RabbitMQWorker.exe
-C:\Users\kmidori\Desktop\RabbitMQSample\RabbitMQSample\RabbitMQWorker\obj\Debug\RabbitMQWorker.pdb

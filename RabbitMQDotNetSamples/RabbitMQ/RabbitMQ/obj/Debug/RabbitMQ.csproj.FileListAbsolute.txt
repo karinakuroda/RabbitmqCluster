@@ -1,0 +1,12 @@
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\bin\Debug\RabbitMQ.exe.config
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\bin\Debug\RabbitMQ.exe
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\bin\Debug\RabbitMQ.pdb
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\bin\Debug\RabbitMQ.Client.dll
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\bin\Debug\RabbitMQ.Client.xml
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\obj\Debug\RabbitMQ.csprojResolveAssemblyReference.cache
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\obj\Debug\RabbitMQ.exe
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\obj\Debug\RabbitMQ.pdb
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\bin\Debug\Receiver.exe
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\bin\Debug\ReceiverExchange.exe
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\bin\Debug\ReceiverExchange.pdb
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\RabbitMQ\bin\Debug\Receiver.pdb

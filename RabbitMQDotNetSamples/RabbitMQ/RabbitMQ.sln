@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.RabbitMQ", "RabbitMQ\1.RabbitMQ.csproj", "{1E309505-3B58-43CD-9991-CE580F82CB0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Receiver", "Receiver\3.Receiver.csproj", "{034B383E-469E-4C45-8965-5F184ED723E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ReceiverExchange", "ReceiverExchange\2.ReceiverExchange.csproj", "{B2912DAA-5DE8-4A31-A2EA-548E1B058786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E309505-3B58-43CD-9991-CE580F82CB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E309505-3B58-43CD-9991-CE580F82CB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E309505-3B58-43CD-9991-CE580F82CB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E309505-3B58-43CD-9991-CE580F82CB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{034B383E-469E-4C45-8965-5F184ED723E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034B383E-469E-4C45-8965-5F184ED723E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034B383E-469E-4C45-8965-5F184ED723E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034B383E-469E-4C45-8965-5F184ED723E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2912DAA-5DE8-4A31-A2EA-548E1B058786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2912DAA-5DE8-4A31-A2EA-548E1B058786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2912DAA-5DE8-4A31-A2EA-548E1B058786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2912DAA-5DE8-4A31-A2EA-548E1B058786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

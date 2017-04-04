@@ -29,3 +29,16 @@ rabbit3:
   ports:
     - "5675:5672"
     - "15675:15672"
+rabbit4:
+  image: karinakuroda/rabbitmq-cluster
+  hostname: rabbit4
+  links:
+    - rabbit1
+    - rabbit2
+    - rabbit3
+  environment:
+    - ERLANG_COOKIE=abcdefg
+    - CLUSTER_WITH=rabbit1
+  ports:
+    - "5676:5672"
+    - "15676:15672"

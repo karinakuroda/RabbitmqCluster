@@ -1,0 +1,9 @@
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\SenderExchange\bin\Debug\SenderExchange.exe.config
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\SenderExchange\bin\Debug\SenderExchange.exe
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\SenderExchange\bin\Debug\SenderExchange.pdb
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\SenderExchange\bin\Debug\RabbitMQ.Client.dll
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\SenderExchange\bin\Debug\RabbitMQ.ServiceModel.dll
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\SenderExchange\bin\Debug\RabbitMQ.Client.xml
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\SenderExchange\obj\Debug\1.SenderExchange.csprojResolveAssemblyReference.cache
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\SenderExchange\obj\Debug\SenderExchange.exe
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\SenderExchange\obj\Debug\SenderExchange.pdb
