@@ -51,9 +51,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ReceiverExchange\2.ReceiverExchange.csproj">
+    <ProjectReference Include="..\ReceiverExchange\2.SendExchange.csproj">
       <Project>{b2912daa-5de8-4a31-a2ea-548e1b058786}</Project>
-      <Name>2.ReceiverExchange</Name>
+      <Name>2.SendExchange</Name>
     </ProjectReference>
     <ProjectReference Include="..\Receiver\3.Receiver.csproj">
       <Project>{034b383e-469e-4c45-8965-5f184ed723e0}</Project>

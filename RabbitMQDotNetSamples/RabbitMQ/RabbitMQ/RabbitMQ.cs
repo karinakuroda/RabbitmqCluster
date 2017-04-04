@@ -17,7 +17,7 @@ namespace RabbitMQ
             argsReceiver[2] = "warning";
 
             //1. SEND MESSAGE FOR EXCHANGE - CREATE QUEUE
-            ReceiverExchange.Program.Main(argsReceiver);
+            SendExchange.Program.Main(argsReceiver);
 
             //2. READ FROM QUEUE
             //Receiver.Program.Main(argsReceiver);

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-namespace ReceiverExchange
+namespace SendExchange
 {
     public class Program
     {

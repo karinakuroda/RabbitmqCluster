@@ -1,0 +1,7 @@
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\ReceiverExchange\bin\Debug\ReceiverExchange.exe.config
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\ReceiverExchange\bin\Debug\ReceiverExchange.exe
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\ReceiverExchange\bin\Debug\ReceiverExchange.pdb
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\ReceiverExchange\bin\Debug\RabbitMQ.Client.dll
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\ReceiverExchange\bin\Debug\RabbitMQ.Client.xml
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\ReceiverExchange\obj\Debug\ReceiverExchange.exe
+C:\GitHub\RabbitMQCluster\RabbitMQDotNetSamples\RabbitMQ\ReceiverExchange\obj\Debug\ReceiverExchange.pdb

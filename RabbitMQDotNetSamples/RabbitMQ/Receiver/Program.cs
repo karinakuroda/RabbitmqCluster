@@ -30,9 +30,11 @@ namespace Receiver
                         var body = ea.Body;
                         var message = Encoding.UTF8.GetString(body);
                         var routingKey = ea.RoutingKey;
+
                         Console.WriteLine(" [x] Received {0} {1}", message, routingKey);
                     };
                     channel.BasicConsume(queue: severity,
+                        
                                          noAck: true,
                                          consumer: consumer2);
                 }
